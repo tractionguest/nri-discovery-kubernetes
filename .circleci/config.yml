@@ -27,7 +27,7 @@ jobs:
             
             deploytag --actions deploy \
               --cluster '' \
-              --chart deploy/minikube \
+              --chart deploy/minikube.yaml \
               --env sandbox \
               --namespace default \
               --region us-west-2 \
