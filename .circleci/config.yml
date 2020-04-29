@@ -27,7 +27,7 @@ jobs:
             
             deploytag --actions deploy \
               --cluster '' \
-              --chart deploy/minikube.yaml \
+              --chart charts/newrelic \
               --env sandbox \
               --namespace default \
               --region us-west-2 \
