@@ -26,6 +26,7 @@ jobs:
               --userole
             
             deploytag --actions deploy \
+              --cluster '' \
               --chart deploy/minikube \
               --env sandbox \
               --namespace default \
