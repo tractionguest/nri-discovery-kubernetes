@@ -31,7 +31,7 @@ jobs:
               --env sandbox \
               --namespace default \
               --region us-west-2 \
-              --role arn:aws:iam::895963939461:role/ci-role \
+              --role arn:aws:iam::278199978621:role/ci-role \
               --userole
 
 workflows:
